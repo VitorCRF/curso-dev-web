@@ -1,0 +1,21 @@
+#tableProdutos {
+    cursor: pointer;
+}
+/*Utilizando pseudo classe para aplicar a cor cinza apenas nas linhas de números pares*/
+#tableProdutos tr:nth-child(2n){
+    background-color:#F0F0F0;
+}
+/*Utilizando pseudo classe para aplicar a cor violeta apenas nas linhas de números ímpares*/
+#tableProdutos tr:nth-child(2n+1){
+    background-color:#DDDAEE;
+}
+
+#tableProdutos tr td{
+    padding: 10px; 
+}
+/*Alteração da cor do cabeçalho da tabela*/
+#tableProdutos tr:first-child{
+    background-color: black;
+    color: white;
+}
+
