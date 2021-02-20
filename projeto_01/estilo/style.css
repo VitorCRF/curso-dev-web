@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+/** Boot CSS **/
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.w50 {
+    width: 50%;
+}
+.w33 {
+    width: 33.3%;
+}
+.clear {
+    clear: both;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/** Estulização **/
+header{
+    background-color: rgb(50, 75, 156);
+    padding: 20px 0;
+}
+header .logo {
+    font-size: 23px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+nav.desktop ul{
+    list-style: none;
+}
+nav.desktop li {
+    font-weight: 300;
+    padding: 0 20px;
+    font-size: 15px;
+    display: inline-block;
+}
+nav.desktop a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.mobile {
+    display: none;
+}
+#autor{
+    width: 320px;
+    height: 420px;
+}
+
+
